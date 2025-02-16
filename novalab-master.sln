@@ -31,6 +31,17 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Novalab.Master.Orchestratio
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Novalab.Master.Orchestration.ServiceDefaults", "src\Novalab.Master.Orchestration\Novalab.Master.Orchestration.ServiceDefaults\Novalab.Master.Orchestration.ServiceDefaults.csproj", "{6A676378-1C3A-0DAB-18DD-EC1ED8013AAA}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "components", "components", "{74F54C16-DBD2-4AB2-A2B5-ADE9B1926A4A}"
+	ProjectSection(SolutionItems) = preProject
+		components\configuration.yaml = components\configuration.yaml
+		components\pubsub.yaml = components\pubsub.yaml
+		components\statestore.yaml = components\statestore.yaml
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Novalab.Showroom.Host", "src\plugins\Novalab.Showroom\Novalab.Showroom.Host\Novalab.Showroom.Host.csproj", "{F811F574-0C53-4638-A748-CA8B6C38AFBA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Novalab.Master.Domain", "src\Novalab.Master\Novalab.Master.Domain\Novalab.Master.Domain.csproj", "{5200BB2D-1A8C-4664-9D25-1E24B33BFCB9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -69,6 +80,14 @@ Global
 		{6A676378-1C3A-0DAB-18DD-EC1ED8013AAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6A676378-1C3A-0DAB-18DD-EC1ED8013AAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6A676378-1C3A-0DAB-18DD-EC1ED8013AAA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F811F574-0C53-4638-A748-CA8B6C38AFBA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F811F574-0C53-4638-A748-CA8B6C38AFBA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F811F574-0C53-4638-A748-CA8B6C38AFBA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F811F574-0C53-4638-A748-CA8B6C38AFBA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5200BB2D-1A8C-4664-9D25-1E24B33BFCB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5200BB2D-1A8C-4664-9D25-1E24B33BFCB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5200BB2D-1A8C-4664-9D25-1E24B33BFCB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5200BB2D-1A8C-4664-9D25-1E24B33BFCB9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -87,6 +106,8 @@ Global
 		{0ACBDD7F-0666-4DD6-B497-216421FBE083} = {91E2D149-FBFC-4B06-BAE6-99FEA1E08724}
 		{0A7FD67B-31CC-44E1-85D6-75C88617CCCE} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 		{6A676378-1C3A-0DAB-18DD-EC1ED8013AAA} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{F811F574-0C53-4638-A748-CA8B6C38AFBA} = {EFB51B66-AA65-4A90-B128-6D0BDAEFD4AE}
+		{5200BB2D-1A8C-4664-9D25-1E24B33BFCB9} = {91E2D149-FBFC-4B06-BAE6-99FEA1E08724}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {45DAEEBF-3A4A-46B0-AA7A-001630E92171}
