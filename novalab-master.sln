@@ -23,6 +23,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Novalab.Master.Host", "src\
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "showroom", "showroom", "{EFB51B66-AA65-4A90-B128-6D0BDAEFD4AE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Novalab.Master.Frontend", "src\Novalab.Master\Novalab.Master.Frontend\Novalab.Master.Frontend\Novalab.Master.Frontend.csproj", "{74CB0F69-ECE9-485E-99B9-93EBEE67E659}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Novalab.Master.Frontend.Client", "src\Novalab.Master\Novalab.Master.Frontend\Novalab.Master.Frontend.Client\Novalab.Master.Frontend.Client.csproj", "{0ACBDD7F-0666-4DD6-B497-216421FBE083}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Novalab.Master.Orchestration.AppHost", "src\Novalab.Master.Orchestration\Novalab.Master.Orchestration.AppHost\Novalab.Master.Orchestration.AppHost.csproj", "{0A7FD67B-31CC-44E1-85D6-75C88617CCCE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Novalab.Master.Orchestration.ServiceDefaults", "src\Novalab.Master.Orchestration\Novalab.Master.Orchestration.ServiceDefaults\Novalab.Master.Orchestration.ServiceDefaults.csproj", "{6A676378-1C3A-0DAB-18DD-EC1ED8013AAA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +53,22 @@ Global
 		{D5E86AEB-D39E-4009-B5A5-6C5056A66214}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D5E86AEB-D39E-4009-B5A5-6C5056A66214}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D5E86AEB-D39E-4009-B5A5-6C5056A66214}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74CB0F69-ECE9-485E-99B9-93EBEE67E659}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74CB0F69-ECE9-485E-99B9-93EBEE67E659}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74CB0F69-ECE9-485E-99B9-93EBEE67E659}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74CB0F69-ECE9-485E-99B9-93EBEE67E659}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0ACBDD7F-0666-4DD6-B497-216421FBE083}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0ACBDD7F-0666-4DD6-B497-216421FBE083}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0ACBDD7F-0666-4DD6-B497-216421FBE083}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0ACBDD7F-0666-4DD6-B497-216421FBE083}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A7FD67B-31CC-44E1-85D6-75C88617CCCE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A7FD67B-31CC-44E1-85D6-75C88617CCCE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A7FD67B-31CC-44E1-85D6-75C88617CCCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A7FD67B-31CC-44E1-85D6-75C88617CCCE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A676378-1C3A-0DAB-18DD-EC1ED8013AAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A676378-1C3A-0DAB-18DD-EC1ED8013AAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A676378-1C3A-0DAB-18DD-EC1ED8013AAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A676378-1C3A-0DAB-18DD-EC1ED8013AAA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -59,6 +83,10 @@ Global
 		{F1811FDA-8D70-4BB2-8156-F2AFF77FBAF2} = {9F21E098-3E8F-48E0-AF08-81FBAE8EEDCA}
 		{D5E86AEB-D39E-4009-B5A5-6C5056A66214} = {91E2D149-FBFC-4B06-BAE6-99FEA1E08724}
 		{EFB51B66-AA65-4A90-B128-6D0BDAEFD4AE} = {CA83B261-CD81-4835-A148-DF34A15404C6}
+		{74CB0F69-ECE9-485E-99B9-93EBEE67E659} = {91E2D149-FBFC-4B06-BAE6-99FEA1E08724}
+		{0ACBDD7F-0666-4DD6-B497-216421FBE083} = {91E2D149-FBFC-4B06-BAE6-99FEA1E08724}
+		{0A7FD67B-31CC-44E1-85D6-75C88617CCCE} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{6A676378-1C3A-0DAB-18DD-EC1ED8013AAA} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {45DAEEBF-3A4A-46B0-AA7A-001630E92171}
