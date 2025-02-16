@@ -35,7 +35,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "components", "components", 
 	ProjectSection(SolutionItems) = preProject
 		components\configuration.yaml = components\configuration.yaml
 		components\pubsub.yaml = components\pubsub.yaml
-		components\statestore.yaml = components\statestore.yaml
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Novalab.Showroom.Host", "src\plugins\Novalab.Showroom\Novalab.Showroom.Host\Novalab.Showroom.Host.csproj", "{F811F574-0C53-4638-A748-CA8B6C38AFBA}"
